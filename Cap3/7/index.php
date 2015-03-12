@@ -20,7 +20,13 @@
             </div>
         </div>
 
+        <div id="content">
+            Conteúdo do Site
+        </div>
 
+        <di id="footer">
+            <p>Fenix TI - Todos os direitos reservados</p>
+        </di>
 
     </div>
 
