@@ -1,22 +1,10 @@
-
-<meta charset="utf-8"/>
-
-<h3>While Comum </h3>
-
+<<<<<<< HEAD
 <?php
-
-    $i = 0;
-    while($i <=10){
-        echo $i."<br>";
-        $i ++;
-    }
-$i = 1;
+$x = 0;
+do{
+    echo "Faça alguma coisa <br>";
+    $x ++;
+}while($x < 5);
 ?>
-
-
-<h3>While Contraído</h3>
-<?php while($i <= 10):?>
-
-Esse é o valor de $i: <?=$i?><?php $i++;?> <br>
-
-<?php endwhile;?>
+=======
+>>>>>>> origin/developer
