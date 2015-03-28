@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 $x = 0;
 do{
@@ -8,3 +9,5 @@ do{
 ?>
 =======
 >>>>>>> origin/developer
+=======
+>>>>>>> master
