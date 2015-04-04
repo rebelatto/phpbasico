@@ -1,3 +1,4 @@
+<meta charset="UTF-8"/>
 <?php
 #####################
 ##  Arrays Simples ##
@@ -13,7 +14,7 @@ $animais = array("Gato","Cachorro","Coelho");// índices são implícitos - auto
 
 //echo $animais[$i];
 
-$nomes = array(0=>"Pedro",1=>"Wesley",2=>"Mariana",3=>"Raffy");// índices são explicitos - manuais
+$nomes = array(0=>"Pedro",1=>"Wesley",2=>"Mariana",3=>"Raffy", 4=>"Carlos", 5=>"Ana Carla", 6=>"Gessica");// índices são explicitos - manuais
 
 //echo $nomes[3];
 
@@ -25,10 +26,33 @@ $nomes2 = array(
 
 //echo $nomes2[0][1];
 
+//print_r($nomes2);
+
 ###########################
 ##  Arrays associativos  ##
 ###########################
 
 $config = array();//declaração de arrray
-echo $config;
+$config["nome"] = "Fenix Tecnologia e Inovação";
+$config["linguagem"] = "PHP";
+$config["site"] = "http://www.fenixti.com.br";
+
+//echo $config["nome"]." - ".$config["site"];
+
+$exemplo = array(
+                  "nome" => "Fenix Tecnologia e Inovação",
+                  "email" => "contato@fenixti.com.br",
+                  "site" => "http://www.fenixti.com.br",
+                  "ativo" => true,
+                  "valor" => 100
+                );
+//echo $exemplo["nome"];
+
+//var_dump($exemplo);
+
+$tam = count($nomes);
+
+for ($i = 0; $i < $tam; $i++)
+    echo $nomes[$i]."<br>";
+
 ?>
