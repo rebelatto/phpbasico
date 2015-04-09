@@ -28,4 +28,13 @@ somaV1();
 
 echo "<h3>Função soma V2</h3>";
 somaV2();
+
+/**
+ * Variáveis Globais e Variáveis de Escopo
+ *
+ */
+$x = 10;
+function somaV3($x,$y){
+    echo $x + $y;
+}
 ?>
