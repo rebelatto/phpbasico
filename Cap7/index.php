@@ -4,7 +4,7 @@
 //Funções
 
 /**
- * Primeira versão da função - Função Simples
+ * Primeira versão da função soma - Função Simples
  **/
 
 function somaV1(){
@@ -13,7 +13,7 @@ function somaV1(){
 
 
 /**
- * Segunda versão da função - Função melhorada
+ * Segunda versão da função soma - Função melhorada
  **/
 
 function somaV2(){
@@ -30,7 +30,7 @@ echo "<h4 style= color:dimgray>Função soma V2</h4>";
 somaV2();
 
 /**
- * Terceira versão da função - Função utilizando variáveis Globais e variáveis de Escopo
+ * Terceira versão da função soma - Função utilizando variáveis Globais e variáveis de Escopo
  **/
 
 echo "<h3>Funções avançadas parte I - Variávies Globais e de Escopo</h3>";
@@ -45,5 +45,19 @@ function somaV3($x = 0,$y = 0){//váriáveis de escopo
 somaV3(10);
 //Formatos que podemos passar em nossos parâmetros de uma função : int, "String", false/true, null, array( )
 
+/**
+ * Função média - Função utilizando variáveis Globais e variáveis de Escopo
+ **/
+echo "<h3>Funções avançadas parte I - Funções com retorno</h3>";
 
+echo "<h4 style= color:dimgray>Função média</h4>";
+
+function media($p1,$p2,$p3,$p4){
+    $resultado = ($p1 + $p2 + $p3 + $p4) / 4;
+    return $resultado;
+}
+
+$media = media(8,5,7,10);
+
+echo "<strong>Sua média é: ".$media."</strong>";
 ?>
