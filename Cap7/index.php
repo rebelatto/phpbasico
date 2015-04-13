@@ -31,6 +31,7 @@ somaV2();
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Variáveis Globais e Variáveis de Escopo
  *
  */
@@ -39,6 +40,8 @@ function somaV3($x,$y){
     echo $x + $y;
 }
 =======
+=======
+>>>>>>> developer
  * Terceira versão da função soma - Função utilizando variáveis Globais e variáveis de Escopo
  **/
 
@@ -69,5 +72,8 @@ function media($p1,$p2,$p3,$p4){
 $media = media(8,5,7,10);
 
 echo "<strong>Sua média é: ".$media."</strong>";
+<<<<<<< HEAD
+>>>>>>> developer
+=======
 >>>>>>> developer
 ?>
